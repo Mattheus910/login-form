@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  main {
+    margin: auto;
+    width: 375px;
+    height: 812px;
+    padding: 30px 20px;
+    background-color: #191816;
+    
+  }
+
+  header {
+    width: 334px;
+    height: 122px;
+    margin: 10px 0px;
+    
+    
+    font-family: 'Roboto', sans-serif;
+    color: #afb6c2;
+  }
+
+  #ilog-in {
+    display: flex;
+    margin: 20px 0px;
+    gap: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #d4ccb6;
+  }
+
+  #email {
+    width: 335px;
+    height: 73px;
+    margin: 10px 0px;
+    color: #afb6c2;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #iemail {
+    width: 335px;
+    height: 44px;
+  }
+
+  #senha {
+    width: 335px;
+    height: 73px;
+    margin: 10px 0px;
+    color: #afb6c2;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #isenha {
+    width: 335px;
+    height: 44px;
+  }
+
+  #lembrar {
+    display: flex;
+    justify-content: space-between;
+    color: #A9AFB9;
+    margin: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+ #icheckbox:checked::before {
+    color: #191816;
+ }
+
+  #entrar {
+    width: 334px;
+    padding: 12px 24px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffc632;
+    color: #473404;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+  }
+
+  #criar {
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: #ffc632;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    
+  }
+
