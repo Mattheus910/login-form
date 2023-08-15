@@ -1,9 +1,26 @@
 @charset "UTF-8";
 
-@media screen and (max-widht: 768px) {
-    main {
-        width: 572px;
-        height: 512px;
+@media screen and (min-width: 600px) {
+
+    body {
+        display: flex;
+        background-color: #191816;
     }
-    
+
+    main {
+        display: flex;
+        flex-direction: column;
+       width: 572px;
+       height: 512px;
+       background-color: #24221F;
+       align-items: center;
+       justify-content: center;
+       margin: 194px 74px;
+    }
+
+    picture {
+        display: block;
+    }
+
+   
 }
